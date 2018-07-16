@@ -1,0 +1,12 @@
+<svg id="组_4" data-name="组 4" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1278d8;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="椭圆_4" data-name="椭圆 4" class="cls-1" d="M996.5,238A11.5,11.5,0,1,1,985,249.5,11.5,11.5,0,0,1,996.5,238Zm0,2a9.5,9.5,0,1,1-9.5,9.5A9.5,9.5,0,0,1,996.5,240Z" transform="translate(-985 -238)"/>
+  <path id="椭圆_3" data-name="椭圆 3" class="cls-1" d="M994,246l6,3.5-5.982,3.5Zm0,0" transform="translate(-985 -238)"/>
+</svg>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+.wrapper {
+    background: #f8f8f8;
+    padding: 30px;
+}
+
+.container {
+    padding: 210px 0;
+    background: #fff url(../images/about/about.png) no-repeat fixed;
+    background-position: 80px 240px;
+    background-size: 90%;
+}
+
+.container .h1-cn,
+.container .h1-en,
+.container .h1-uk {
+    color: #1e1e1e;
+    font-size: 42px;
+    letter-spacing: 1px;
+    padding: 0 0 0 180px;
+}
+
+.contentWrap-cn,
+.contentWrap-en,
+.contentWrap-uk{
+    width: 670px;
+    margin: 30px auto;
+}
+.contentWrap-cn p,
+.contentWrap-en p,
+.contentWrap-uk p{
+    width: 670px;
+    font-size: 16px;
+    color: #3b3b3b;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+/*日本*/
+.container .h1-jp {
+    color: #1e1e1e;
+    font-size: 42px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.contentWrap-jp {
+    width: 900px;
+    margin: 30px auto;
+}
+.contentWrap-jp h2 {
+    width: 900px;
+    text-align: center;
+    font-size: 29px;
+    color: #788188;
+}
+
+.contentWrap-jp table{
+    width: 822px;
+    font-size: 16px;
+    color: #788188;
+    line-height: 30px;
+    margin: 30px auto;
+}
+.contentWrap-jp td{
+    min-height: 45px;
+    padding: 0 0 0 10px;
+    line-height: 45px;
+}

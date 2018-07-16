@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="838" height="563" viewBox="0 0 838 563">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #818181;
+        stroke-width: 15px;
+      }
+
+      .cls-2 {
+        fill: #dd342c;
+      }
+    </style>
+  </defs>
+  <rect id="圆角矩形_1" data-name="圆角矩形 1" class="cls-1" x="2" y="4" width="834" height="558" rx="70" ry="70"/>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-2" cx="419" cy="283" r="135"/>
+</svg>

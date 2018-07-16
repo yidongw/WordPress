@@ -1,0 +1,197 @@
+html,
+body {
+    background: #f8f8f8;
+}
+.wrapper {
+    background: #f2f2f2;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    width: 100%;
+}
+.container {
+    margin: 0 30px 30px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.bgWrap {
+    padding-top: 1000px;
+    height: 100%;
+    background: url('/images/about/join_us.png') center fixed no-repeat;
+    background-size: 90%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.conWrap {
+    width: 100%;
+    margin: 0px auto 100px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.conWrap h2 {
+    color: #1e1e1e;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.conWrap>div {
+    min-height: 320px;
+    overflow: hidden;
+}
+
+/*--------------------------子导航---------------*/
+
+.boxWrap {
+    /*display: none;*/
+    overflow: hidden;
+    min-height: 700px;
+}
+.boxWrap.active {
+    display: block;
+}
+.subnav {
+    width: 100%;
+    height: 66px;
+    margin: 60px 0;
+}
+.subnav .title {
+    height: 66px;
+    line-height: 66px;
+    font-size: 16px;
+    margin: 0 26%;
+}
+.subnav .title li {
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+}
+.subnav .title li.active a {
+    color: #35a7d8;
+}
+.subnav .title li a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+    display: block;
+}
+.tabWrap {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    margin: 0;
+}
+.tabWrap ul {
+    overflow: hidden;
+/*     display: none; */
+}
+.tabWrap ul.active {
+    display: block;
+}
+
+/*------------新闻------------*/
+
+
+/*.border-right {
+    border-right: 1px solid #e6e6e6;
+}
+
+.border-top {
+    border-top: 1px solid #e6e6e6;
+}
+
+.mainWrap h3 {
+    color: #1e1e1e;
+    font-size: 58px;
+    padding: 10% 0%;
+}*/
+
+.tabWrap ul {
+    border-top: 1px solid #e6e6e6;
+}
+.mainWrap li {
+    min-height: 140px;
+    width: 600px;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+    /*margin: 0 0 -1px;*/
+}
+.mainWrap li div {
+    color: #35a7d8;
+    font-size: 14px;
+    padding: 17px 0 17px 25px;
+    height: 116px;
+}
+.mainWrap li p {
+    color: #4e4e4e;
+    font-size: 26px;
+    padding: 5% 0 15px 0;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.mainWrap li p span {
+    font-size: 20px;
+    color: #808080;
+}
+.mainWrap li a {
+    color: #35a7d8;
+    font-size: 14px;
+}
+
+/*------------------------------------------------------------移动端样式----------------------------------------------------*/
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .conWrap {
+        width: 90%;
+        margin: 0 5% 20% 5%;
+    }
+    .conWrap h2 {
+        font-size: 0.2rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    .subnav {
+        height: auto;
+        margin: 3% auto;
+    }
+    .subnav .title {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .subnav .title li {
+        padding-left: 5%;
+        padding-right: 5%;
+        float: left;
+        text-align: center;
+    }
+    .subnav .title li a {
+        font-size: 0.14rem;
+    }
+    .mainWrap li {
+        min-height: auto;
+        width: 100%;
+        float: none;
+        padding: 8% 0;
+    }
+    .mainWrap li div {
+        font-size: 0.12rem;
+        padding: 1% 0;
+        height: auto;
+    }
+    .mainWrap li p {
+        font-size: 0.16rem;
+        padding: 0 0 15px 0;
+    }
+    .mainWrap li a {
+        font-size: 0.12rem;
+    }
+}

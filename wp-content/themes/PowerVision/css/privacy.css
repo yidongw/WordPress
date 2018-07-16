@@ -1,0 +1,73 @@
+.wrapper {
+    background: #f8f8f8;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    /*margin-bottom: 315px;*/
+    overflow: hidden;
+}
+
+.container {
+    margin: 26px 30px;
+    background: #ffffff;
+    overflow: hidden;
+    padding-bottom: 180px;
+}
+.section-header h1{
+    font-size: 30px;
+    padding: 70px 0 5px 0;
+}
+.container h2 {
+    font-size: 30px;
+    padding: 70px 0 5px 0;
+    color: #222222;
+}
+
+.container p {
+    font-size: 14px;
+    color: #222222;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.container a {
+    display: inline-block;
+    font-size: 14px;
+    color: #222222;
+    text-decoration: underline;
+}
+
+.container span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container table {
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
+
+.container table tr {
+    line-height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+
+/*---------------------------移动端-------------------------------*/
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container>div {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .container h2 {
+        font-size: 0.2rem;
+    }
+    .container p {
+        font-size: 0.12rem;
+    }
+}

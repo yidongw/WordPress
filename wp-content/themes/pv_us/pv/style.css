@@ -1,0 +1,42 @@
+/*
+Theme Name: PowerVision bootstrap
+Theme URI: http://techguymedia.com
+Author: Brad Traversy
+Author URI: http://techguymedia.com
+Description: Simple Bootstrap Wordpress Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: techguymedia
+*/
+/*
+ * Globals
+ */
+
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+
+.dropdown-menu {
+  min-width:100% !important;
+  border: 0px !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.text-muted a {
+  color: #6c757d;
+}
+
+/* .modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+       -o-transition: -o-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+
+} */

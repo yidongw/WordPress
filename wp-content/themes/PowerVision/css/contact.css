@@ -1,0 +1,53 @@
+@charset "utf-8";
+.wrapper {
+    background: #f8f8f8;
+    padding: 30px;
+}
+
+.container {
+    padding: 120px 0;
+    background: #fff url(../images/about/contact.png) no-repeat fixed;
+    background-position: 0 240px;
+    background-size: 98%;
+}
+
+.container img {
+    padding: 0 0 0 112px;
+}
+
+.container h1 {
+    color: #1e1e1e;
+    font-size: 42px;
+    letter-spacing: 1px;
+    padding: 55px 0 0 140px;
+}
+
+.contentWrap {
+
+}
+
+.contentWrap ul {
+    width: 1100px;
+    margin: 30px auto;
+}
+
+.contentWrap ul li {
+    float: left;
+    width: 285px;
+    padding: 0 0 0 80px;
+    min-height: 300px;
+}
+
+.contentWrap ul li h3 {
+    color: #1e1e1e;
+    border-left: 4px solid #dc000a;
+    padding: 0 0 0 10px;
+    margin: 0 0 20px;
+    font-size: 26px;
+}
+
+.contentWrap ul li p {
+    color: #7e7e7e;
+    font-size: 14px;
+    line-height: 25px;
+}
