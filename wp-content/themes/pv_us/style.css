@@ -30,6 +30,17 @@ Text Domain: techguymedia
   color: #6c757d;
 }
 
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
 /* .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform 0.3s ease-out;
      -moz-transition: -moz-transform 0.3s ease-out;

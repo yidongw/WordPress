@@ -5,6 +5,7 @@
   // Theme Support
   function pv_theme_setup(){
     add_theme_support('post-thumbnails');
+    add_theme_support( 'title-tag' );
 
     // Nav Menus
     register_nav_menus(array(
@@ -27,6 +28,44 @@
       'before_title'  => '<h4>',
       'after_title'   => '</h4>'
     ));
+
+    register_sidebar(array(
+      'name'  => 'Video1',
+      'id'    => 'video1',
+      'before_widget' => '<div class="col-sm-6 col-md-3 p-1">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4>',
+      'after_title'   => '</h4>'
+    ));
+
+    register_sidebar(array(
+      'name'  => 'Video2',
+      'id'    => 'video2',
+      'before_widget' => '<div class="col-sm-6 col-md-3 p-1">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4>',
+      'after_title'   => '</h4>'
+    ));
+
+    register_sidebar(array(
+      'name'  => 'Video3',
+      'id'    => 'video3',
+      'before_widget' => '<div class="col-sm-6 col-md-3 p-1">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4>',
+      'after_title'   => '</h4>'
+    ));
+
+    register_sidebar(array(
+      'name'  => 'Video4',
+      'id'    => 'video4',
+      'before_widget' => '<div class="col-sm-6 col-md-3 p-1">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h4>',
+      'after_title'   => '</h4>'
+    ));
+
+
 
   }
 

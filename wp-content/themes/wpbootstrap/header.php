@@ -36,6 +36,9 @@
         </nav>
       </div>
     </div>
+
+    <?php get_template_part('content','test'); ?>
+
     <div class="container">
       <div class="blog-header">
         <h1 class="blog-title"><?php bloginfo('name'); ?></h1>
